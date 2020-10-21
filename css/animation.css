@@ -1,0 +1,133 @@
+@keyframes effect {
+    100% {
+      opacity: 0;
+      transform: scale(2.5);
+    }
+  }
+
+  
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @keyframes marquee2 {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+  }
+  
+
+
+  @keyframes fade {
+    0% { top:10px; left:10px; filter:blur(15px); opacity:0;}
+    50% { filter:blur(10px); opacity:0.9;}
+    100% { top:0px; left:0px; filter:blur(0px); opacity:1; }  
+  }
+
+
+
+  
+@keyframes pulse {
+    0% { opacity: 0.9; transform: skewX(0.5deg); }
+    25% { opacity: 1; }
+    50% { opacity: 0.9;}
+    75% { opacity: 1; transform: skewX(0.5deg); }
+    100% { opacity: 0.9;}
+  }
+  
+  @keyframes chromaticMove {
+    0% {
+      text-shadow: 3px 2px 2px #fb0c0c, 0px -1px 3px rgba(12, 79, 251, 0.5), 0px 0px -2px #34fb0c;
+    }
+    50% {
+      text-shadow: 3px 2px 2px #fb0c0c, 0px -1px 3px rgba(12, 79, 251, 0.5), -3px 2px 3px #34fb0c;
+    }
+    100% {
+      text-shadow: 3px 2px 2px #fb0c0c, 0px -1px 3px rgba(12, 79, 251, 0.5), 2px -1px 2px #34fb0c;
+    }
+  }
+
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  25% {transform: translateY(2.1%);
+        transform: rotate(1deg);}
+  50% {transform: translateY(3.1%);
+        transform: rotate(2deg);}
+  100% {transform: translateY(0);}
+}
+  
+/* twins PC */
+@keyframes scroll_ani1 {
+    0% {top: 0}
+    50% {top: -1730px}
+    100% {top: 0}
+  }
+  
+ /* twins M */
+  @keyframes scroll_ani2 {
+    0% {top: 0}
+    50% {top: -2200px}
+    100% {top: 0}
+  }
+
+  
+@keyframes scroll_ani3 {
+    0% {top: 0}
+    50% {top: -1300px}
+    100% {top: 0}
+  }
+  
+@keyframes scroll_ani4 {
+    0% {top: 0}
+    50% {top: -988px}
+    100% {top: 0}
+  }
+
+
+  @keyframes color_change {
+    0%{color: #34fb0c;}
+    15%{color: #f7fb0c;}
+    30%{color: #fb0cd3;}
+    45%{color: #fb440c;}
+    60%{color: #7c0cfb;}
+    75%{color: #fb0c18;}
+    90%{color: #fb580c;}
+    100%{color: #0cfbe7;}
+  }
+  @keyframes color_change2 {
+    from{color:#00D9B5;}
+    to{color: #39284d;}
+  }
+
+
+ 
+  
+  @keyframes border_moving {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+    
+  } 
+
+ 
